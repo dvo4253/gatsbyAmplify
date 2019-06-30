@@ -1,10 +1,11 @@
+import Auth from '@aws-amplify/auth';
 import React from 'react'
 import { Link } from 'gatsby'
 
 import { navigate } from '@reach/router'
 
 import { logout, isLoggedIn } from "../utils/auth"
-import { Auth } from 'aws-amplify'
+
 
 const Header = ({ siteTitle }) => (
   <div

@@ -2,7 +2,7 @@ import React from "react"
 import { navigate} from "@reach/router"
 import { Link } from 'gatsby'
 import Error from './Error'
-import { Auth } from 'aws-amplify'
+import Auth from '@aws-amplify/auth';
 
 const initialState = {
   username: ``,

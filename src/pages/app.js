@@ -7,7 +7,6 @@ import Login from "../components/Login"
 import SignUp from "../components/SignUp"
 import PrivateRoute from "../components/PrivateRoute"
 
-
 const App = () => (
   <Layout>
     <Router>
