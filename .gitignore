@@ -75,6 +75,6 @@ src/aws-exports.js
 amplify/\#current-cloud-backend
 amplify/.config/local-*
 amplify/backend/amplify-meta.json
-aws-exports.js
+
 awsconfiguration.json
 amplify/team-provider-info.json
