@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 
-import Amplify from 'aws-amplify'
+import Amplify from '@aws-amplify/core'
 import config from '../aws-exports'
 Amplify.configure(config)
 
